@@ -7,7 +7,6 @@ skype = Skype4Py.Skype()
 # Connect the Skype object to the Skype client.
 skype.Attach()
 
-print(skype.Call.GetConfrenceId(self))
 def OnMessageStatus(Message, Status): #The function we will call on event
 #The event handler will define Messsage object and a status string
     if Status == 'RECEIVED':
